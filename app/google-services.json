@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "375243728383",
+    "firebase_url": "https://baby-detector.firebaseio.com",
+    "project_id": "baby-detector",
+    "storage_bucket": "baby-detector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375243728383:android:aaae365cd7eb0ac794f3ca",
+        "android_client_info": {
+          "package_name": "com.example.baby_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375243728383-ce043ujb0kjavc65m19s6qr089stb4ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerbasdqhJA9NTmsyOjbM8pfxlWEg8CxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375243728383-ce043ujb0kjavc65m19s6qr089stb4ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
