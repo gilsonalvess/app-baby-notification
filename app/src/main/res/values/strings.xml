@@ -18,17 +18,17 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
-    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_settings">Configurações</string>
 
     <!-- Preference Titles -->
     <string name="messages_header">Tema de cores</string>
-    <string name="sync_header">Notificações</string>
+    <string name="sync_header">Alertas</string>
 
     <!-- Messages Preferences -->
-    <string name="reply_title">Default reply action</string>
+    <string name="theme_title">Selecione um tema</string>
 
     <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
+    <string name="sync_title">Desabilitar alertas</string>
     <string name="attachment_title">Download incoming attachments</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>

@@ -1,8 +1,9 @@
-package com.example.baby_notification;
+package com.example.baby_notification.service;
 
 import android.content.Intent;
 import android.util.Log;
 
+import com.example.baby_notification.MainActivity;
 import com.google.firebase.messaging.RemoteMessage;
 
 public class FirebaseMessagingService extends com.google.firebase.messaging.FirebaseMessagingService {
