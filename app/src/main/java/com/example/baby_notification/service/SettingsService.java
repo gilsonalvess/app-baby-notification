@@ -9,12 +9,14 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
 
-public class SettingsService {
+import java.io.Serializable;
+
+public class SettingsService implements Serializable {
 
     private static DatabaseReference databaseReference = FirebaseConnection.databaseReference();
     private static Settings settings;
 
-    static Settings getSettings() {
+    public static Settings getSettings() {
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {

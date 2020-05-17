@@ -21,11 +21,11 @@
     <string name="title_activity_settings">Configurações</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Tema de cores</string>
+    <string name="messages_header">Configurações sensor</string>
     <string name="sync_header">Alertas</string>
 
     <!-- Messages Preferences -->
-    <string name="theme_title">Selecione um tema</string>
+    <string name="sensor_level_title">Sensibilidade</string>
 
     <!-- Sync Preferences -->
     <string name="sync_title">Desabilitar alertas</string>

@@ -4,10 +4,10 @@
 
         <ListPreference
             app:defaultValue="false"
-            app:entries="@array/theme_entries"
-            app:entryValues="@array/theme_values"
-            app:key="theme"
-            app:title="@string/theme_title"
+            app:entries="@array/sensor_level_entries"
+            app:entryValues="@array/sensor_level_values"
+            app:key="sound_time"
+            app:title="@string/sensor_level_title"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>

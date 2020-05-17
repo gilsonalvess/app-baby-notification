@@ -46,7 +46,8 @@ public class SettingsActivity extends AppCompatActivity {
             super.onPause();
             getPreferenceManager().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(this);
             Boolean isDisableAlerts = (Boolean) getPreferenceManager().getSharedPreferences().getAll().get("disable_alerts");
-            SettingsService.save(new Settings(isDisableAlerts));
+            String soundTime = (String) getPreferenceManager().getSharedPreferences().getAll().get("sound_time");
+            SettingsService.save(new Settings(isDisableAlerts, soundTime));
         }
 
         @Override
